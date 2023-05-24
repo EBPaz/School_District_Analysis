@@ -3,4 +3,5 @@ dvasquez - Learning Assistant, helped rectify an error in .value_counts that I c
 
 Liang, (lyam) on Slack, the Learning Assistant, helped me re-configure my code to be able to do math to get the budget per student. I was stuck with using the groupby function without any aggregation function on the end. He helped me develop the .max()["budget"] portion of my code.
 
-Monali, monalipatel19 on Slack, the Learning Assistant, helped me configure my .astype changes for 
+Monali, monalipatel19 on Slack, the Learning Assistant, helped me go back and re-calculate my School Types code to find the types per school. originally, I had just counted them as in an array and when I got to making my dataframe, that obviously wouldn't work. She helped me switch from just a school type count to --school_type = school_data.set_index(["school_name"])["type"] --
+
