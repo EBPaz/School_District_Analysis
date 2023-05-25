@@ -5,3 +5,4 @@ Liang, (lyam) on Slack, the Learning Assistant, helped me re-configure my code t
 
 Monali, monalipatel19 on Slack, the Learning Assistant, helped me go back and re-calculate my School Types code to find the types per school. originally, I had just counted them as in an array and when I got to making my dataframe, that obviously wouldn't work. She helped me switch from just a school type count to --school_type = school_data.set_index(["school_name"])["type"] --
 
+Classmate, Tahseen, shared a change she had to make to her pd.cut code when creating the bins for the Scores by School Spending dataframe. She says she was helped via tutor with this as well. This was discussed in our own zoom study group we created. The data being input for had to come from a higher up data reference. I used "per_school_capita" as the data marker for the "Per Student Budget" column.
