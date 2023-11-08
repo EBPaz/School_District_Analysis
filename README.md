@@ -1,19 +1,19 @@
 # School District Analysis  
-University of Wisconsin Extension - Data Analytics + Visualization Certificate
+University of Wisconsin Extension - Data Analytics + Visualization Certificate  
 Pandas Analysis, Module 4
 
 # About
 This project is based on data from an entire school district in both school demographics and standardized test scores. Multiple questions and lengthy analysis is completed using the Pandas library within the Python language. 
 
 # Getting Started / Installation
-This project was completed using Jupyter Notebook while calling the two CSV files listed in the Resources folder to create new dataframes. 
-To run the program, you must import pandas as pd.
+This project was completed using Jupyter Notebook while calling the two CSV files listed in the Resources folder to create new dataframes.  
+To run the program, you must import pandas as pd.  
 To read the CSV files into Pandas format, you must import from pathlib import Path
 
 # Analysis
-I read in the two CSV files with Path using pd.read
-Multiple aggregations were performed with students and test scores with various math equations using .count
-Individual school's and group's data was analyzed using .mean. .sort_values and .count on conjunction with .groupby
+I read in the two CSV files with Path using pd.read  
+Multiple aggregations were performed with students and test scores with various math equations using .count  
+Individual school's and group's data was analyzed using .mean. .sort_values and .count on conjunction with .groupby  
 Finally new dataframes were created by binning values into sub-sets to better evaluate school spending, school size and school type
 
 # Summary
