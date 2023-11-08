@@ -1,14 +1,18 @@
 # School District Analysis  
 Data Analytics + Visualization Certificate, Module 4, Pandas Analysis
 
-#Summary
+# Summary
 This project is based on data from an entire school district in both school demographics as well as standardized test scores. Multiple questions and lengthy analysis is completed using Pandas dataframes language. 
 
-#Getting Started / Installation
+# Getting Started / Installation
 This project was completed using Jupyter Notebook while calling CSV files to create new dataframes. 
+To run the program, you must import pandas as pd.
+To read the CSV files into Pandas format, you must import from pathlib import Path
+
+# Summary
 
 
-#Contributing
+# Contributing
 dvasquez - Learning Assistant, helped rectify an error in .value_counts that I couldn't resolve by googling. He shpowed me the difference between .unique and .unique() for my data type and helped me correct my answer for the count of unique schools: 
 
 Liang, (lyam) on Slack, the Learning Assistant, helped me re-configure my code to be able to do math to get the budget per student. I was stuck with using the groupby function without any aggregation function on the end. He helped me develop the .max()["budget"] portion of my code.
