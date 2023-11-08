@@ -1,17 +1,18 @@
 # School District Analysis  
 Data Analytics + Visualization Certificate, Module 4, Pandas Analysis
 
-# Summary
-This project is based on data from an entire school district in both school demographics as well as standardized test scores. Multiple questions and lengthy analysis is completed using Pandas dataframes language. 
+# About
+This project is based on data from an entire school district in both school demographics and standardized test scores. Multiple questions and lengthy analysis is completed using Pandas dataframes within the Python language. 
 
 # Getting Started / Installation
 This project was completed using Jupyter Notebook while calling CSV files to create new dataframes. 
 To run the program, you must import pandas as pd.
 To read the CSV files into Pandas format, you must import from pathlib import Path
 
-# Summary
-Summary of the data analysis: The data from the csv files collected represents high schools within a district as well as the students and their performance within each school in that district. I took the data from those two CSV files and compiled many dataframes to observe the trends of how well students perform in relation to how much money the district spends on their school. The students' performance was only focused on standardized test results in Math and Reading scores.
+# Analysis
+I took the data from the two CSV files and compiled many dataframes to observe the trends of how well students perform in relation to how much money the district spends on their school. The students' performance was only focused on standardized test results in Math and Reading scores.
 
+# Summary
 The district summary reveals that more students pass Reading versus Math, but overall the district does not have a great combined passing rate at 65%. The school summary shows there are big disparities between the schools in the number of students passing both Math and Reading. It also indicates there is a major difference in the number of students that attend each school. The school with the highest percent of students passing both Math and Reading is Cabrera High School, the school with the lowest percent of students passing both Math and Reading is Rodriguez High School. When assessing the Math and Reading scores by grade, the scores were similar through 9th to 12th when looking at each individual school. Scores by school spending reveals the schools that spent the least amount of money per student, actually had higher Math and Reading scores and in turn better passing percentages. When considering the students' outcomes based on the size of their school, the small and medium schools performed much better in both Math and Reading scores. Finally, the school type indicated that students attending a charter school had a much more likely chance of having passing scores versus attending a district school, especially in Math.
 
 # Contributing
